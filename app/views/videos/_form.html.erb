@@ -15,7 +15,14 @@
     <%= form.label :title, style: "display: block" %>
     <%= form.text_field :title %>
   </div>
-
+<div>
+    <%= form.label :clip, style: "display: block" %>
+    <%= form.file_field :clip %>
+  </div>
+  <div>
+    <%= form.label :thumbnail, style: "display: block" %>
+    <%= form.file_field :thumbnail %>
+  </div>
   <div>
     <%= form.label :description, style: "display: block" %>
     <%= form.text_area :description %>
